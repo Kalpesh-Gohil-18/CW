@@ -34,5 +34,6 @@
             }
         }
     }
+    console.log("Git Hub Check");
     customElements.define("box-18", Box);
 })();
