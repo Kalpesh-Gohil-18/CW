@@ -1,0 +1,77 @@
+{
+    "id": "box1",
+    "version": "1.0.0",
+    "name": "Box",
+    "description": "A colored box",
+    "newInstancePrefix": "Box",
+    "icon": "https://raw.githubusercontent.com/nickbaek/SAC-Custom-Widget/master/public/google/googleGauge.png",
+    "vendor": "",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "box-18",
+            "url": "https://github.com/Kalpesh-Gohil-18/SAC-Custom-Widget-master/tree/master/public/box/box.js?raw=true",
+            "integrity": "",
+            "ignoreIntegrity": true
+        },
+        {
+            "kind": "styling",
+            "tag": "box-styling",
+            "url": "https://github.com/Kalpesh-Gohil-18/SAC-Custom-Widget-master/tree/master/public/box/box_styling.js?raw=true",
+            "integrity": "",
+            "ignoreIntegrity": true
+        },
+        {
+            "kind": "builder",
+            "tag": "box-builder",
+            "url": "https://github.com/Kalpesh-Gohil-18/SAC-Custom-Widget-master/tree/master/public/box/box_builder.js?raw=true",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "color": {
+            "type": "string",
+            "description": "Background color",
+            "default": "red"
+        },
+        "opacity": {
+            "type": "number",
+            "description": "Opacity",
+            "default": 1
+        },
+        "width": {
+            "type": "integer",
+            "default": 100
+        },
+        "height": {
+            "type": "integer",
+            "default": 100
+        }
+    },
+    "methods": {
+        "setColor": {
+            "description": "Sets the background color.",
+            "parameters": [
+                {
+                    "name": "newColor",
+                    "type": "string",
+                    "description": "The new background color"
+                }
+            ],
+            "body": "this.color = newColor;"
+        },
+        "getColor": {
+            "returnType": "string",
+            "description": "Returns the background color.",
+            "body": "return this.color;"
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "Called when the user clicks the Box."
+        }
+    }
+}
