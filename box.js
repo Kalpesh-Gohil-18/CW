@@ -34,5 +34,5 @@
             }
         }
     }
-    customElements.define("box-18", ColoredBox);
+    customElements.define("box-18", Box);
 })();

@@ -4,7 +4,7 @@
     "name": "Box",
     "description": "A colored box",
     "newInstancePrefix": "Box",
-    "icon": "https://raw.githubusercontent.com/nickbaek/SAC-Custom-Widget/master/public/google/googleGauge.png",
+    "icon": "https://kalpesh-gohil-18.github.io/CW/googleGauge.png",
     "vendor": "",
     "eula": "",
     "license": "",
@@ -12,21 +12,21 @@
         {
             "kind": "main",
             "tag": "box-18",
-            "url": "https://github.com/Kalpesh-Gohil-18/SAC-Custom-Widget-master/tree/master/public/box/box.js?raw=true",
+            "url": "https://kalpesh-gohil-18.github.io/CW/box.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "styling",
             "tag": "box-styling",
-            "url": "https://github.com/Kalpesh-Gohil-18/SAC-Custom-Widget-master/tree/master/public/box/box_styling.js?raw=true",
+            "url": "https://kalpesh-gohil-18.github.io/CW/box_styling.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
             "tag": "box-builder",
-            "url": "https://github.com/Kalpesh-Gohil-18/SAC-Custom-Widget-master/tree/master/public/box/box_builder.js?raw=true",
+            "url": "https://kalpesh-gohil-18.github.io/CW/box_builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
