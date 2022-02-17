@@ -16,7 +16,7 @@ var getScriptPromisify = (src) => {
 			<div id="chart_div" style="width: 100%; height: 100%"></div>
 		`;
 //1
-	class GoogleGauge extends HTMLElement {
+	class amPie extends HTMLElement {
 		constructor() {
 			super();
 			this._shadowRoot = this.attachShadow({ mode: "open" });
@@ -87,6 +87,6 @@ var getScriptPromisify = (src) => {
 
 		}
 	}
-	customElements.define("com-sap-sample-chart", GoogleGauge);
+	customElements.define("am-pie-sample-chart", amPie);
 
 })();

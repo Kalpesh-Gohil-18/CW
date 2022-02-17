@@ -4,7 +4,7 @@
     "name": "lineSeries",
     "description": "Am Line Series Chart",
     "newInstancePrefix": "Line_Series",
-    "icon": "https://2176-2405-201-2014-3076-ccb8-dc30-a9a1-ee5c.ngrok.io/static/Chart-line.png",
+    "icon": "https://kalpesh-gohil-18.github.io/CW/AmChart/Chart-line.png",
     "vendor": "Kalpesh",
     "eula": "",
     "license": "",
@@ -12,7 +12,7 @@
         {
             "kind": "main",
             "tag": "line-series-chart",
-            "url": "https://2176-2405-201-2014-3076-ccb8-dc30-a9a1-ee5c.ngrok.io/static/amLineChart.js",
+            "url": "https://kalpesh-gohil-18.github.io/CW/AmChart/amLineChart.js",
             "integrity": "",
             "ignoreIntegrity": true
         }

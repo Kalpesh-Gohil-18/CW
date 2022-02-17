@@ -1,18 +1,18 @@
 {
-	"id": "com.sap.sample.chart",
-	"version": "4.0.0",
+	"id": "am.pie.sample.chart",
+	"version": "1.0.0",
 	"name": "Amchart piechart",
-	"description": "piecgart",
-	"newInstancePrefix": "piechart",
+	"description": "piechart",
+	"newInstancePrefix": "ampiechart",
 	"icon": "",
-	"vendor": "JD",
+	"vendor": "Kalpesh",
 	"eula": "",
 	"license": "",
 	"webcomponents": [
 		{
 			"kind": "main",
-			"tag": "com-sap-sample-chart",
-			"url": "https://kalpesh-gohil-18.github.io/SAC-Custom-Widget-master/public/pie/Amchart_pie.js",
+			"tag": "am-pie-sample-chart",
+			"url": "https://kalpesh-gohil-18.github.io/CW/AmChart/Amchart_pie.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
