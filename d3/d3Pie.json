@@ -4,7 +4,7 @@
 	"name": "d3 pie chart",
 	"description": "Pie Chart",
 	"newInstancePrefix": "Pie_chart",
-	"icon": "https://99b5-2405-201-2014-3076-1966-10d7-a6a4-909e.ngrok.io/static/SeekPng.com_graph-png_284210.png",
+	"icon": "https://kalpesh-gohil-18.github.io/CW/d3/Pie_chart.png",
 	"vendor": "Kalpesh",
 	"eula": "",
 	"license": "",
@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "d3-pie-chart",
-			"url": "https://99b5-2405-201-2014-3076-1966-10d7-a6a4-909e.ngrok.io/static/d3Pie.js",
+			"url": "https://kalpesh-gohil-18.github.io/CW/d3/d3Pie.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
