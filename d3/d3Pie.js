@@ -55,7 +55,7 @@ var getScriptPromisify = (src) => {
             for(var i=0; i<sel.length; i++){
 
                 var b={
-                    name : sel[i].Customer_Segment.description,
+                    name : sel[i].Segment.description,
                     value : sel[i]["@MeasureDimension"].rawValue
                 }
                 population.push(b);
