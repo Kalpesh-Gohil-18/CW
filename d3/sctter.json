@@ -4,7 +4,7 @@
 	"name": "d3 scatter chart",
 	"description": "Scatter Chart",
 	"newInstancePrefix": "Scatter_chart",
-	"icon": "",
+	"icon": "https://kalpesh-gohil-18.github.io/CW/d3/scatter-plot-16.png",
 	"vendor": "Kalpesh",
 	"eula": "",
 	"license": "",
@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "d3-scatter-chart",
-			"url": "https://1161-2405-201-2014-3076-3cbb-6cf8-1e07-f2a6.ngrok.io/static/d3Scatter.js",
+			"url": "https://kalpesh-gohil-18.github.io/CW/d3/d3Scatter.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
