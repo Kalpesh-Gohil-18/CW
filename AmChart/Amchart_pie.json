@@ -4,7 +4,7 @@
 	"name": "Amchart piechart",
 	"description": "piechart",
 	"newInstancePrefix": "ampiechart",
-	"icon": "",
+	"icon": "https://kalpesh-gohil-18.github.io/CW/AmChart/Pie_chart.png",
 	"vendor": "Kalpesh",
 	"eula": "",
 	"license": "",
