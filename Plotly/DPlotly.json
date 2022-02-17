@@ -4,7 +4,7 @@
 	"name": "Plotly Dynamic Barcahrt",
 	"description": "BarChart",
 	"newInstancePrefix": "barchart",
-	"icon": "",
+	"icon": "https://kalpesh-gohil-18.github.io/CW/Plotly/Bar-chart-icon.png",
 	"vendor": "Kalpesh",
 	"eula": "",
 	"license": "",
@@ -12,7 +12,7 @@
 		{
 			"kind": "main",
 			"tag": "plotly-dynamic-bar-chart",
-			"url": "https://4098-2405-201-2014-3076-19cc-9629-101d-6992.ngrok.io/static/dynamicPlotlyBar.js",
+			"url": "https://kalpesh-gohil-18.github.io/CW/Plotly/dynamicPlotlyBar.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}

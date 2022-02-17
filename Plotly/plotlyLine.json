@@ -4,7 +4,7 @@
     "name": "plotlyLineSeries",
     "description": "plotly Line Series Chart",
     "newInstancePrefix": "LineSeries",
-    "icon": "https://99b5-2405-201-2014-3076-1966-10d7-a6a4-909e.ngrok.io/static/Chart-line.png",
+    "icon": "https://kalpesh-gohil-18.github.io/CW/Plotly/Chart-line.png",
     "vendor": "Kalpesh",
     "eula": "",
     "license": "",
@@ -12,7 +12,7 @@
         {
             "kind": "main",
             "tag": "plotly-line-series-chart",
-            "url": "https://99b5-2405-201-2014-3076-1966-10d7-a6a4-909e.ngrok.io/static/plotlyLine.js",
+            "url": "https://kalpesh-gohil-18.github.io/CW/Plotly/plotlyLine.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
