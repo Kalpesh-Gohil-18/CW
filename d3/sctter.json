@@ -1,0 +1,40 @@
+{
+	"id": "d3.scatter.chart",
+	"version": "1.0.1",
+	"name": "d3 scatter chart",
+	"description": "Scatter Chart",
+	"newInstancePrefix": "Scatter_chart",
+	"icon": "",
+	"vendor": "Kalpesh",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "d3-scatter-chart",
+			"url": "https://1161-2405-201-2014-3076-3cbb-6cf8-1e07-f2a6.ngrok.io/static/d3Scatter.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 600
+		}
+	},
+	"methods": {
+		"render": {
+			"description": "To Plot Chart"
+        }
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Colored Box."
+		}
+	}
+}

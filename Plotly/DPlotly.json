@@ -1,0 +1,52 @@
+{
+	"id": "plotly.dynamic.bar.chart",
+	"version": "1.0.1",
+	"name": "Plotly Dynamic Barcahrt",
+	"description": "BarChart",
+	"newInstancePrefix": "barchart",
+	"icon": "",
+	"vendor": "Kalpesh",
+	"eula": "",
+	"license": "",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "plotly-dynamic-bar-chart",
+			"url": "https://4098-2405-201-2014-3076-19cc-9629-101d-6992.ngrok.io/static/dynamicPlotlyBar.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"width": {
+			"type": "integer",
+			"default": 600
+		},
+		"height": {
+			"type": "integer",
+			"default": 600
+		}
+	},
+	"methods": {
+		"render": {
+			"description": "To Plot Chart",
+            "parameters": [
+				{
+					"name" : "value",
+					"type" : "any",
+					"description" : " parameter"
+				},
+                {
+                    "name" : "colNo",
+                    "type" : "integer",
+                    "description" : " col no. parameter"
+                }
+			]
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Colored Box."
+		}
+	}
+}

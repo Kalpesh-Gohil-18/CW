@@ -1,0 +1,47 @@
+{
+    "id": "Am.Line.Series.chart",
+    "version": "1.0.0",
+    "name": "lineSeries",
+    "description": "Am Line Series Chart",
+    "newInstancePrefix": "Line_Series",
+    "icon": "https://2176-2405-201-2014-3076-ccb8-dc30-a9a1-ee5c.ngrok.io/static/Chart-line.png",
+    "vendor": "Kalpesh",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "line-series-chart",
+            "url": "https://2176-2405-201-2014-3076-ccb8-dc30-a9a1-ee5c.ngrok.io/static/amLineChart.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "width": {
+            "type": "integer",
+            "default": 600
+        },
+        "height": {
+            "type": "integer",
+            "default": 600
+        }
+    },
+    "methods": {
+        "render": {
+            "description": "To Plot Chart",
+            "parameters": [
+                {
+                    "name": "Resultset",
+                    "type": "any",
+                    "description": "parameter"
+                }
+            ]
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "Called when the user clicks the Colored Box."
+        }
+    }
+}
