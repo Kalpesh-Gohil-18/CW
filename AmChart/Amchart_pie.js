@@ -54,7 +54,7 @@ var getScriptPromisify = (src) => {
 
 				var b = {
 
-					A: sel[i].Province_3z1cg02r1y.description,
+					A: sel[i].Region.description,
 					B: sel[i]["@MeasureDimension"].rawValue
 
 				}
