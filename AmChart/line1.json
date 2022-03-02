@@ -1,0 +1,59 @@
+{
+    "id": "Am.Line.Series.chart",
+    "version": "2.1.0",
+    "name": "lineSeries",
+    "description": "Am Line Series Chart",
+    "newInstancePrefix": "Line_Series",
+    "icon": "https://kalpesh-gohil-18.github.io/CW/AmChart/Chart-line.png",
+    "vendor": "Kalpesh",
+    "eula": "",
+    "license": "",
+    "webcomponents": [
+        {
+            "kind": "main",
+            "tag": "line-series-chart",
+            "url": "https://kalpesh-gohil-18.github.io/CW/AmChart/line1.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "width": {
+            "type": "integer",
+            "default": 600
+        },
+        "height": {
+            "type": "integer",
+            "default": 600
+        },
+        "resultset": {
+            "type": "any"
+        },
+        "partition_1": {
+            "type": "boolean"
+        }
+    },
+    "methods": {
+        "render": {
+            "description": "To Plot Chart",
+            "parameters": [
+                {
+                    "name": "Resultset",
+                    "type": "any",
+                    "description": "parameter"
+                },
+                {
+                    "name": "Partition",
+                    "type": "boolean",
+                    "description": "parameter"
+                }
+            ],
+            "body": "this.partition_1=Partition; this.resultset=Resultset;"
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "Called when the user clicks the Colored Box."
+        }
+    }
+}
